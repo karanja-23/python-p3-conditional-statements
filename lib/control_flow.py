@@ -4,8 +4,9 @@ def admin_login(username, password):
     # your code here
     if (username == "admin"or username == "ADMIN") and password == "12345":
         return "Access granted"
-
-    pass
+    else :
+        return "Access denied"
+    
 print(admin_login("admin", "12345"))
 print(admin_login("sudo", "12345"))
 print(admin_login("ADMIN", "12345"))
