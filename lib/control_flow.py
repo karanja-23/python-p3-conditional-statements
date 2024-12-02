@@ -3,7 +3,7 @@
 def admin_login(username, password):
     # your code here
     if (username == "admin"or username == "ADMIN") and password == "12345":
-        return "Accesss granted"
+        return "Access granted"
 
     pass
 print(admin_login("admin", "12345"))
